@@ -1,0 +1,58 @@
+.navbar-brand {
+    text-align: center;
+    margin-left: 44%;
+}
+
+.container {
+    margin-top: 5%;
+    width: 40%;
+    background-color: grey;
+    border-top: 20px solid grey;
+    box-shadow: 0 0 10px grey;
+    border-radius: 5px;
+}
+
+.form-control {
+    border: 2px solid grey;
+}
+
+.form-control:hover {
+    box-shadow: 0 0 0 grey;
+    transition: border-color grey .15s ease-in-out, box-shadow grey .15s ease-in-out;
+}
+
+
+.calbtn {
+    margin: 8% 41%;
+    background-color: #FFFF00;
+    color: black;
+    width: 20%;
+    height: auto;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.calbtn:hover {
+    background-color: #f7f735;
+    color: black;
+    font-weight: bold;
+
+}
+
+#result {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    navbar-brand {
+        text-align: center;
+        margin-left: 44%;
+    }
+}
